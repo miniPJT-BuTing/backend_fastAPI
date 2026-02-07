@@ -1,0 +1,20 @@
+# --- FastAPI 서버 ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# --- 이미지 / 수치 처리 ---
+numpy>=1.23.0
+opencv-python>=4.8.0
+pillow>=9.5.0
+
+# --- 데이터 처리 ---
+pandas>=1.5.0
+pyarrow>=14.0.0   # parquet 읽기/쓰기용
+
+# --- 얼굴 인식 / 임베딩 ---
+insightface>=0.7.3
+onnxruntime>=1.16.0
+
+# --- 진행률 표시 (선택이지만 이미 사용 중) ---
+tqdm>=4.65.0
